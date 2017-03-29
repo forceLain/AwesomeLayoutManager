@@ -49,6 +49,8 @@ layoutManager.setPageHeightFactor(.7f);
 
 (click to see the video)
 
+You can find a working example in the "app" module
+
 ## How to setup
 
 Make sure you use jcenter repository
