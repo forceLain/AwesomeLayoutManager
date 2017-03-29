@@ -35,6 +35,7 @@ layoutManager.setPagination(false);
 ```
 
 [![No pagination](https://img.youtube.com/vi/1XiGXLEccas/0.jpg)](https://youtu.be/1XiGXLEccas "No pagination")
+
 (click to see the video)
 
 Also you can control the maximum height of views. 
@@ -45,4 +46,24 @@ layoutManager.setPageHeightFactor(.7f);
 ```
 
 [![Small height](https://img.youtube.com/vi/wezqVGMleXk/0.jpg)](https://www.youtube.com/watch?v=wezqVGMleXk "Small height")
+
 (click to see the video)
+
+## How to setup
+
+Make sure you use jcenter repository
+
+```
+repositories {
+    jcenter()
+}
+```
+
+Add dependency
+
+```
+dependencies {
+    compile 'com.forcelain.awesomelayoutmanager:awesomelayoutmanager:1.0'
+    ...
+}
+```
