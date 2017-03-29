@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_item_one"
+        android:title="One item" />
+
+
+    <item
+        android:id="@+id/menu_item_two"
+        android:title="Two items" />
+
+    <item
+        android:id="@+id/menu_item_many"
+        android:title="Many items" />
+
+
+    <item
+        android:id="@+id/menu_goto_first"
+        android:title="Go to first" />
+
+    <item
+        android:id="@+id/menu_goto_last"
+        android:title="Go to last" />
+</menu>

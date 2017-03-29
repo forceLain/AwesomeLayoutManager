@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shadow"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/article_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/article_title"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_image"
+                android:gravity="center"
+                android:padding="8dp"
+                tools:text="A title" />
+
+            <TextView
+                android:id="@+id/article_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_title"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                tools:text="Quisque at lacinia justo. Donec egestas ligula justo, eu tempus metus lacinia nec. Maecenas quis pretium tortor. Nulla hendrerit dignissim justo, id feugiat augue. Integer laoreet suscipit nunc" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/read_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AFFF">
+
+        <Button
+            android:id="@+id/read_more_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Read more" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>
