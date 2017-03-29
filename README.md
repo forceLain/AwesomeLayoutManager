@@ -8,7 +8,7 @@ This library contains a LayoutManager implementation with the help of which you 
  
 ![Basic](https://raw.githubusercontent.com/forceLain/AwesomeLayoutManager/master/etc/basic.gif)
 
-All you need is to create and setup AwesomeLayoutManager instance
+All you need is to create and setup an AwesomeLayoutManager instance
 
 ```
 layoutManager = new AwesomeLayoutManager();
