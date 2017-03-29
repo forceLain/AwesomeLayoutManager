@@ -6,7 +6,7 @@ This library contains a LayoutManager implementation with the help of which you 
  - Draw your views in vertical orientation like a "previews" with cute scale effect
  - Scroll your views like a normal RecyclerView or like a ViewPager
  
-[gif]
+![Basic](https://raw.githubusercontent.com/forceLain/AwesomeLayoutManager/master/etc/basic.gif)
 
 All you need is to create and setup AwesomeLayoutManager instance
 
